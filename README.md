@@ -1,0 +1,2 @@
+# emailchecker
+Simple email validator
