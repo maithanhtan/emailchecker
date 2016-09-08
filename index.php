@@ -2,8 +2,8 @@
 <html>
 
 <head>
-<link rel="stylesheet" type="text/css" href="email.css">
-<title>email validator</title>
+<link rel="stylesheet" type="text/css" href="styles/email.css">
+<title>emailchecker</title>
 </head>
 <body>
 <div id="main">
@@ -23,7 +23,7 @@
 
 
 // include SMTP Email Validation Class
-require_once('smtp_validateEmail.class.php');
+require_once('classes/smtp_validateEmail.class.php');
 
 if(isset($_GET['email'])) {
 
